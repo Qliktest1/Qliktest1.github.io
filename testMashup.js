@@ -50,7 +50,7 @@ require( ["js/qlik"], function ( qlik ) {
 		$( '#popup' ).hide();
 	} );
     //open apps -- inserted here --
-	var app = qlik.openApp( 'f1ce659e-c52a-4d3e-88e9-15f728cb9d5b', config );
+	var app = qlik.openApp( 'f459fde9-abb1-44bd-b633-fb018dde18b0', config );
 	
     //get objects -- inserted here --
 	app.visualization.get('snNGxG').then(function(vis){
