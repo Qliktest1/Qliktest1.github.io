@@ -50,10 +50,10 @@ require( ["js/qlik"], function ( qlik ) {
 		$( '#popup' ).hide();
 	} );
     //open apps -- inserted here --
-	var app = qlik.openApp( 'efd69364-4f33-456a-aa69-fe187cbadac3', config );
+	var app = qlik.openApp( 'f1ce659e-c52a-4d3e-88e9-15f728cb9d5b', config );
 	
     //get objects -- inserted here --
-	app.visualization.get('UgrkWm').then(function(vis){
+	app.visualization.get('snNGxG').then(function(vis){
     vis.show("QV01");	
 	} );
     
